@@ -18,6 +18,6 @@ class Block{
         tint(this.opc);
         this.opc-=5;
       } else tint(this.opc);
-      if(this.opc > 10) image(this.image,pos.x,pos.y,this.width, this.height);
+      if(this.opc > 10) image(this.image,pos.x,pos.y-20,this.width, this.height);
     }
 }
